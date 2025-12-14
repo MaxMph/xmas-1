@@ -1,6 +1,12 @@
+
+/*body {
+  background: linear-gradient(135deg, #0f172a, #1e293b);
+  color: #e5e7eb;
+}*/
+
 @import "tailwindcss";
 
-:root {
+/*:root {
   --background: #ffffff;
   --foreground: #171717;
 }
@@ -17,10 +23,28 @@
     --background: #0a0a0a;
     --foreground: #ededed;
   }
+}*/
+
+@font-face {
+  font-family: 'newfont';
+  src: url("/fonts/font.woff2") format('woff2');
+  font-weight: normal;
+  font-style: normal;
 }
 
 body {
   background: var(--background);
+  background-image: url("/wood.jpg");
+  background-repeat: repeat;
+  background-size: auto;
+
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/*.main {
+  background: var(--background);
+  background-image: url("/wood.jpg");
+  background-repeat: repeat;
+  background-size: auto;
+}*/
