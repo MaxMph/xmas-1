@@ -6,7 +6,7 @@
 
 @import "tailwindcss";
 
-/*:root {
+:root {
   --background: #ffffff;
   --foreground: #171717;
 }
@@ -21,9 +21,9 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
-    --foreground: #ededed;
+    --foreground: #ffffff;
   }
-}*/
+}
 
 @font-face {
   font-family: 'newfont';
@@ -39,7 +39,7 @@ body {
   background-size: auto;
 
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: newfont, sans-serif;
 }
 
 /*.main {
