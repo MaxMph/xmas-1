@@ -1,6 +1,6 @@
 import "./globals.css";
 
-export default function RootLayout({children}) {
+export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html>
       <body>
